@@ -42,20 +42,21 @@ FJK/mvc8h4wrQbAAAAJHh1emloYW5nQHh1emloYW5nZGVNYWNCb29rLVByby5sb2NhbAEC
 AwQFBg==
 -----END OPENSSH PRIVATE KEY-----  
 
+(check)Link to domain: watermelonsugarhi.site
 
-(check)homepage with team member info 
+        (check)homepage with team member info 
 
-(check)homework links
+        (check)homework links
 
-(check)about pages for each team member
+        (check)about pages for each team member
 
-(check)favicon
+        (check)favicon
 
-(check)robots.txt
+        (check)robots.txt
 
-(check)hw1/hello.php
+        (check)hw1/hello.php
 
-hw1/report.html
+        hw1/report.html
 
 (check)Details of Github auto deploy setup:
 Our auto deployment uses post receieve hook. 
