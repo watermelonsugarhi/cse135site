@@ -42,7 +42,7 @@ FJK/mvc8h4wrQbAAAAJHh1emloYW5nQHh1emloYW5nZGVNYWNCb29rLVByby5sb2NhbAEC
 AwQFBg==
 -----END OPENSSH PRIVATE KEY-----  
 
-(check)Link to domain: watermelonsugarhi.site
+Link to domain: watermelonsugarhi.site
 
         (check)homepage with team member info 
 
@@ -56,9 +56,9 @@ AwQFBg==
 
         (check)hw1/hello.php
 
-        hw1/report.html
+        (check)hw1/report.html
 
-(check)Details of Github auto deploy setup:
+(check)Details of Github auto deploy setup:  
 Our auto deployment uses post receieve hook. 
 When we edit our code and push to our repository, 
 the server code doesn't get updated, so nothings 
@@ -71,12 +71,19 @@ code, we can then just git push prod master, it
 will triger the post receive hook, which then pull 
 the changes from the repository to the production server.
 
-(check)Username/password info for logging into the site:
+(check)Username/password info for logging into the site:  
 Username:grader       Password: cse135
 
-Summary of changes to HTML file in DevTools after compression
+(check)Summary of changes to HTML file in DevTools after compression:  
+enable the module using sudo a2enmod deflate first, then confirm that 
+etc/apache2/mods_enabled/deflate.load is uncommented, and 
+deflate.conf has all the rules correctly set up. Also, add compress type
+for apache2.conf, Then, we go the the root directory of our site 
+var/www/watermelonsugarhi.site/public_html, and add the rules to the 
+.htaccess file. 
 
-(check)Summary of removing 'server' header:
+
+(check)Summary of removing 'server' header:  
 To change the server header, we first install 
 Apache mod_security module and mod_headers 
 module, and then we opened Apache.conf, and added
