@@ -43,21 +43,21 @@ AwQFBg==
 -----END OPENSSH PRIVATE KEY-----  
 
 
-✅homepage with team member info 
+(check)homepage with team member info 
 
-✅homework links
+(check)homework links
 
-✅about pages for each team member
+(check)about pages for each team member
 
-✅favicon
+(check)favicon
 
-✅robots.txt
+(check)robots.txt
 
-✅hw1/hello.php
+(check)hw1/hello.php
 
 hw1/report.html
 
-✅Details of Github auto deploy setup:
+(check)Details of Github auto deploy setup:
 Our auto deployment uses post receieve hook. 
 When we edit our code and push to our repository, 
 the server code doesn't get updated, so nothings 
@@ -70,12 +70,12 @@ code, we can then just git push prod master, it
 will triger the post receive hook, which then pull 
 the changes from the repository to the production server.
 
-✅Username/password info for logging into the site:
+(check)Username/password info for logging into the site:
 Username:grader       Password: cse135
 
 Summary of changes to HTML file in DevTools after compression
 
-✅Summary of removing 'server' header:
+(check)Summary of removing 'server' header:
 To change the server header, we first install 
 Apache mod_security module and mod_headers 
 module, and then we opened Apache.conf, and added
