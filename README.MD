@@ -76,6 +76,15 @@ Username:grader       Password: cse135
 
 Summary of changes to HTML file in DevTools after compression:  
 
+(check)Compress Textual Content:
+
+enable the module using sudo a2enmod deflate first, then confirm that 
+etc/apache2/mods_enabled/deflate.load is uncommented, and deflate.conf has all the rules correctly
+set up. Then, we go the the root directory of our site var/www/watermelonsugarhi.site/public_html, and add
+the rules to the .htaccess file. At the end there is no change to our site, we suspect that it is due to our site being too
+small.
+
+
 (check)Summary of removing 'server' header:  
 To change the server header, we first install 
 Apache mod_security module and mod_headers 
