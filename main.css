@@ -1,7 +1,11 @@
-.hwdetail {
-    background-color: lightgray;
-}
 footer {
     width: 100%;
     text-align:center;
 }
+
+.hwdetail  {
+    background-color: lightgray;
+    display: flex;
+    flex-direction: row;
+}
+

@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+	<head>
+  		<title>CGI Form</title>
+	</head>
+
+	<body>	
+  		<h1 align="center">Session Test</h1>
+  		<hr>
+  		<label for="cgi-lang">CGI using:</label>
+  		<select name="cgi-lang" id="cgi">
+    			<option value="php-cookie-sessions-1.php">PHP (Cookie)</option>
+    			<option value="php-URL-sessions-1.php">PHP (URL)</option>
+  		</select>
+  		<form action="/cgi-bin/php-cookie-sessions-1.php" method="Post" id="form">
+    			<label>
+				What is your name? 
+				<input type="text" name="username" id="userInput" autocomplete="off">
+			</label>
+    		<br>
+    		<input type="submit" value="Test Sessioning">
+  		</form>
+  
+  		<a href="/" style="display:inline-block;margin-top:20px;">Home</a> 
+
+  		<script>
+    			document.getElementById('form').onsubmit = function () {
+				value = document.getElementById('cgi').value;
+      				document.getElementById('form').action = `/cgi-bin/${value}`;
+			}	
+  		</script>
+	</body>
+
+</html>
